@@ -5,10 +5,8 @@
 #include "Assieme.h"
 
 
-
 void Assieme::setNome(const string &nome) {
     Assieme::nome = nome;
-
 }
 
 const string &Assieme::getNome() const {
